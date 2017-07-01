@@ -1,0 +1,275 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="en-US"><!--<![endif]-->
+<head>
+    <title>Crow - Creative Agency</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+    <![endif]-->
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="Premium theme.">
+    <meta name="keywords" content=""/>
+    <meta name="author" content="Site Author">
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- <meta name="robots" content="index,follow"> -->
+
+    <!-- ############################# Stylesheets ############################# -->
+
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+
+    <!-- ############################# Javascript - Modernizr ############################# -->
+
+    <script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+<!--[if lte IE 8]>
+<div id="ie6-message"><p>You are using Internet Explorer 8.0 or older to view the web. Please upgrade to a newer browser to fully enjoy the web. <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Upgrade your browser</a></p></div>
+<![endif]-->
+
+<!-- ############################# Page ############################# -->
+<section id="page">
+
+    <!-- ############################# Header ############################# -->
+    <header id="header">
+        <div class="container">
+            <!-- ############################# Logo ############################# -->
+             <a id="logo" href="index.html" class="smooth-link"><img src="placeholders/logo.png" alt="Logo"></a>
+
+            <!-- ############################# Menu ############################# -->
+            <!-- Menu Tigger -->
+            <a href="#" id="menu-trigger"><span class="icon"></span></a>
+            <!-- /menu Tigger -->
+        </div>
+         <!-- Menu Container -->
+        <div id="menu-container">
+            <div class="container">
+                <h3 class="nav-title">Menu</h3>
+                <div class="divider white"></div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#" class="active">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+    </header>
+
+    <!-- ############################# Portfolio ############################# -->
+    <section id="portfolio" class="cover-bg portfolio-intro">
+
+        <!-- Portfolio content -->
+        <div id="portfolio-content">
+            <!-- Filter -->
+            <ul id="portfolio-filter" class="inline-dots">
+                <li><a href="#" data-filterby="*" class="active">All</a></li>
+                <li><a href="#" data-filterby="design">Design</a></li>
+                <li><a href="#" data-filterby="web">Web</a></li>
+                <li><a href="#" data-filterby="branding">Branding</a></li>
+                <li><a href="#" data-filterby="mobile">Mobile</a></li>
+            </ul>
+            <!-- /filter -->
+
+            <!-- Portfolio -->
+            <div id="portfolio-carousel" class="owl-carousel carousel">
+
+                <!-- Portfolio Item -->
+                <article class="portfolio-item carousel-fw-item carousel-item" data-filter="mobile">
+
+                    <a class="zoom-thumb smooth-link" href="portfolio-project01.html">
+                        <img src="placeholders/work-workouts.jpg" alt="Latest Work">
+                    </a>
+                    <footer>
+                        <h2 class="title">Workouts</h2>
+                        <!-- Categories -->
+                        <ul class="inline-dots portfolio-cats">
+                            <li>Mobile</li>
+                        </ul>
+                        <!-- /Categories -->
+                    </footer>
+                    <!-- Overlay -->
+                    <div class="overlay"></div>
+                </article>
+                <!-- /Portfolio Item -->
+
+                <!-- Portfolio Item -->
+                <article class="portfolio-item carousel-fw-item carousel-item" data-filter="design branding">
+
+                    <a class="zoom-thumb smooth-link" href="portfolio-project02.html">
+                        <img src="placeholders/work-symbols.jpg" alt="Latest Work">
+                    </a>
+                    <footer>
+                        <h2 class="title">Symbols</h2>
+                        <!-- Categories -->
+                        <ul class="inline-dots portfolio-cats">
+                            <li>Design</li>
+                            <li>Branding</li>
+                        </ul>
+                        <!-- /Categories -->
+                    </footer>
+                    <!-- Overlay -->
+                    <div class="overlay"></div>
+                </article>
+                <!-- /Portfolio Item -->
+
+                 <!-- Portfolio Item -->
+                <article class="portfolio-item carousel-fw-item carousel-item" data-filter="website">
+
+                    <a class="zoom-thumb smooth-link" href="portfolio-project03.html">
+                        <img src="placeholders/work-504.jpg" alt="Latest Work">
+                    </a>
+                    <footer>
+                        <h2 class="title">504 Creative</h2>
+                        <!-- Categories -->
+                        <ul class="inline-dots portfolio-cats">
+                            <li>Website</li>
+                        </ul>
+                        <!-- /Categories -->
+                    </footer>
+                    <!-- Overlay -->
+                    <div class="overlay"></div>
+                </article>
+                <!-- /Portfolio Item -->
+
+                <!-- Portfolio Item -->
+                <article class="portfolio-item carousel-fw-item carousel-item" data-filter="design mobile">
+
+                    <a class="zoom-thumb smooth-link" href="portfolio-project04.html">
+                        <img src="placeholders/work-confirmation.jpg" alt="Latest Work">
+                    </a>
+                    <footer>
+                        <h2 class="title">Confirmation</h2>
+                        <!-- Categories -->
+                        <ul class="inline-dots portfolio-cats">
+                            <li>Design</li>
+                            <li>Mobile</li>
+                        </ul>
+                        <!-- /Categories -->
+                    </footer>
+                    <!-- Overlay -->
+                    <div class="overlay"></div>
+                </article>
+                <!-- /Portfolio Item -->
+
+                <!-- Portfolio Item -->
+                <article class="portfolio-item carousel-fw-item carousel-item" data-filter="mobile website">
+
+                    <a class="zoom-thumb smooth-link" href="portfolio-project05.html">
+                        <img src="placeholders/work-flat-ui.jpg" alt="Latest Work">
+                    </a>
+                    <footer>
+                        <h2 class="title">Flat UI Kit</h2>
+                        <!-- Categories -->
+                        <ul class="inline-dots portfolio-cats">
+                            <li>Mobile</li>
+                            <li>Website</li>
+                        </ul>
+                        <!-- /Categories -->
+                    </footer>
+                    <!-- Overlay -->
+                    <div class="overlay"></div>
+                </article>
+                <!-- /Portfolio Item -->
+
+                <!-- Portfolio Item -->
+                <article class="portfolio-item carousel-fw-item carousel-item" data-filter="design branding">
+
+                    <a class="zoom-thumb smooth-link" href="portfolio-project06.html">
+                        <img src="placeholders/work-super-wii.jpg" alt="Latest Work">
+                    </a>
+                    <footer>
+                        <h2 class="title">Super WII</h2>
+                        <!-- Categories -->
+                        <ul class="inline-dots portfolio-cats">
+                            <li>Design</li>
+                            <li>Branding</li>
+                        </ul>
+                        <!-- /Categories -->
+                    </footer>
+                    <!-- Overlay -->
+                    <div class="overlay"></div>
+                </article>
+                <!-- /Portfolio Item -->
+
+                <!-- Portfolio Item -->
+                <article class="portfolio-item carousel-fw-item carousel-item" data-filter="design">
+
+                    <a class="zoom-thumb smooth-link" href="portfolio-project07.html">
+                        <img src="placeholders/work-vinyl.jpg" alt="Latest Work">
+                    </a>
+                    <footer>
+                        <h2 class="title">Vinyl Cover</h2>
+                        <!-- Categories -->
+                        <ul class="inline-dots portfolio-cats">
+                            <li>Design</li>
+                        </ul>
+                        <!-- /Categories -->
+                    </footer>
+                    <!-- Overlay -->
+                    <div class="overlay"></div>
+                </article>
+                <!-- /Portfolio Item -->
+
+                <!-- Portfolio Item -->
+                <article class="portfolio-item carousel-fw-item carousel-item" data-filter="branding">
+
+                    <a class="zoom-thumb smooth-link" href="portfolio-project08.html">
+                        <img src="placeholders/work-super-desk.jpg" alt="Latest Work">
+                    </a>
+                    <footer>
+                        <h2 class="title">Super Desk</h2>
+                        <!-- Categories -->
+                        <ul class="inline-dots portfolio-cats">
+                            <li>Design</li>
+                            <li>Branding</li>
+                        </ul>
+                        <!-- /Categories -->
+                    </footer>
+                    <!-- Overlay -->
+                    <div class="overlay"></div>
+                </article>
+                <!-- /Portfolio Item -->
+             
+            </div>
+            <!-- /portfolio carousel -->
+
+        </div>
+        <!-- /portfolio content -->
+
+       <span class="swipe-icon"></span>
+
+    </section>
+    <!-- /portfolio -->
+</section>
+<!-- /page -->
+
+    <!-- ############################# Javascripts ############################# -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing-1.3.min.js"></script>
+    <script src="js/jquery.queryloader2.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.transit.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.small.plugins.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
+    <script src="js/retina.min.js"></script>
+
+    <!-- Custom scripts -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
